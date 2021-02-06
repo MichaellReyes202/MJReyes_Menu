@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="buscar.png" />
+    <None Remove="Copy.png" />
+    <None Remove="cut.png" />
+    <None Remove="new.bmp" />
+    <None Remove="Open.bmp" />
+    <None Remove="paste.png" />
+    <None Remove="Resources\Images\buscar.png" />
+    <None Remove="Resources\Images\Copy.png" />
+    <None Remove="Resources\Images\cut.png" />
+    <None Remove="Resources\Images\new.bmp" />
+    <None Remove="Resources\Images\Open.bmp" />
+    <None Remove="Resources\Images\paste.png" />
+    <None Remove="Resources\Images\save.bmp" />
+    <None Remove="Resources\Images\selection.png" />
+    <None Remove="save.bmp" />
+    <None Remove="selection.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\buscar.png" />
+    <Resource Include="Resources\Images\Copy.png" />
+    <Resource Include="Resources\Images\cut.png" />
+    <Resource Include="Resources\Images\new.bmp" />
+    <Resource Include="Resources\Images\Open.bmp" />
+    <Resource Include="Resources\Images\paste.png" />
+    <Resource Include="Resources\Images\save.bmp" />
+    <Resource Include="Resources\Images\selection.png" />
+  </ItemGroup>
+
+</Project>
